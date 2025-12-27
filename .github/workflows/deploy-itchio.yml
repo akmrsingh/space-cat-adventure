@@ -31,6 +31,6 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/web
-          project: ${{ secrets.ITCHIO_USERNAME }}/terror-of-adventure
+          project: ${{ secrets.ITCHIO_USERNAME }}/space-cat-war
           channel: html
           api-key: ${{ secrets.BUTLER_API_KEY }}
